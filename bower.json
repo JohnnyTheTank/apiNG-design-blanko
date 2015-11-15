@@ -1,0 +1,36 @@
+{
+  "name": "apiNG-design-sample",
+  "homepage": "https://github.com/JohnnyTheTank/apiNG-design-sample",
+  "authors": [
+    "Jonathan Hornung <jonathan.hornung@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "description": "design for apiNG (sample)",
+  "main": "dist/angular-design-sample.min.js",
+  "moduleType": [],
+  "keywords": [
+    "aping",
+    "angularjs",
+    "rest",
+    "api",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "apiNG": "*",
+    "apiNG-plugin-youtube": "*",
+    "apiNG-plugin-instagram": "*",
+    "bootstrap": "~4"
+  },
+  "resolutions": {
+    "angular": "~1.4.7"
+  }
+}
