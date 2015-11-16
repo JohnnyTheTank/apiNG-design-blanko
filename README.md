@@ -1,4 +1,4 @@
-# apiNG-design-sampl
+# apiNG-design-sample
 Youtube Video Design für [apiNG](https://github.com/JohnnyTheTank/apiNG)
 
 # note
