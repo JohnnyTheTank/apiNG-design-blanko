@@ -32,6 +32,12 @@ module.exports = function(grunt) {
                 }
             }
         },
+        copy: {
+            sample: {
+                src: 'src/aping_design_sample.html',
+                dest: 'dist/aping_design_sample.html',
+            }
+        },
         watch: {
             minifiyJs: {
                 files: [
@@ -56,6 +62,7 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-sass');
 
     grunt.registerTask('default', ['watch']);
