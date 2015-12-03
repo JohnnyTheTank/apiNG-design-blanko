@@ -56,6 +56,15 @@ module.exports = function(grunt) {
                 options: {
                     spawn: true,
                 },
+            },
+            copy_default_template: {
+                files: [
+                    'src/*.html'
+                ],
+                tasks: ['copy'],
+                options: {
+                    spawn: true,
+                },
             }
         },
     });
