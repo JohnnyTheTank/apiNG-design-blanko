@@ -5,8 +5,6 @@
     <title>apiNG Sample Design Demo</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="../dist/aping-design-sample.min.css">
 
     <!-- JS -->
@@ -16,8 +14,7 @@
 
     <script src="../bower_components/apiNG/dist/aping.min.js"></script>
 
-    <script src="../bower_components/apiNG-plugin-youtube/dist/aping-plugin-youtube.min.js"></script>
-    <script src="../bower_components/apiNG-plugin-instagram/dist/aping-plugin-instagram.min.js"></script>
+    <script src="//rawgit.com/JohnnyTheTank/apiNG-plugin-flickr/master/dist/aping-plugin-flickr.min.js"></script>
 
     <script src="../src/aping-design-sample.js"></script>
 
@@ -27,11 +24,9 @@
 </head>
 <body ng-app="app">
     <div class="container">
-        <br>
         <aping
                 model="social"
-                aping-youtube="[{'search':'munich'},{'search':'berlin'}]"
-                aping-instagram="[{'tag':'paris'}]">
+                aping-flickr="[{'tags':'munich'}, {'tags':'berlin'}]">
         </aping>
     </div>
 

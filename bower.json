@@ -15,22 +15,16 @@
     "api",
     "json"
   ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "jquery": "*",
-    "apiNG": "*",
-    "apiNG-plugin-youtube": "*",
-    "apiNG-plugin-instagram": "*",
-    "bootstrap": "~4"
-  },
-  "resolutions": {
-    "angular": "~1.4.7"
+    "license": "MIT",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+      "jquery": "*",
+      "apiNG": "*"
   }
 }
