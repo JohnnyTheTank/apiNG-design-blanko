@@ -1,12 +1,12 @@
 {
-  "name": "apiNG-design-sample",
-  "homepage": "https://github.com/JohnnyTheTank/apiNG-design-sample",
+  "name": "apiNG-design-blanko",
+  "homepage": "https://github.com/JohnnyTheTank/apiNG-design-blanko",
   "authors": [
     "Jonathan Hornung <jonathan.hornung@gmail.com>"
   ],
   "version": "0.1.0",
-  "description": "design for apiNG (sample)",
-  "main": "dist/angular-design-sample.min.js",
+  "description": "design for apiNG (blanko)",
+  "main": "dist/angular-design-blanko.min.js",
   "moduleType": [],
   "keywords": [
     "aping",

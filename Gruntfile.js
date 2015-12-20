@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         uglify: {
             js: {
                 files : {
-                    'dist/aping-design-sample.min.js' : ['src/aping-design-sample.js']
+                    'dist/aping-design-blanko.min.js' : ['src/aping-design-blanko.js']
                 }
             },
             options: {
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
                     sourcemap: 'none'
                 },
                 files: {
-                    'dist/aping-design-sample.min.css': 'src/aping-design-sample.scss'
+                    'dist/aping-design-blanko.min.css': 'src/aping-design-blanko.scss'
                 }
             },
             dist: {
@@ -28,20 +28,20 @@ module.exports = function(grunt) {
                     sourcemap: 'none'
                 },
                 files: {
-                    'dist/aping-design-sample.css': 'src/aping-design-sample.scss'
+                    'dist/aping-design-blanko.css': 'src/aping-design-blanko.scss'
                 }
             }
         },
         copy: {
-            sample: {
-                src: 'src/aping_design_sample.html',
-                dest: 'dist/aping_design_sample.html',
+            blanko: {
+                src: 'src/aping_design_blanko.html',
+                dest: 'dist/aping_design_blanko.html',
             }
         },
         watch: {
             minifiyJs: {
                 files: [
-                    'src/aping-design-sample.js'
+                    'src/aping-design-blanko.js'
                 ],
                 tasks: ['uglify'],
                 options: {
