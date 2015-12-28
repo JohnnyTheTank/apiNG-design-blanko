@@ -27,6 +27,8 @@ apingApp.config(['$provide', function ($provide) {
         orderBy : "timestamp",
         orderReverse : "true",
         model: "social",
+        getNativeData: false, // Use "true" for getting native data from plugins (no transformation to any model)
+        removeDoubles: false, // Use "true" to remove identical objects
     });
 
 }]);
