@@ -1,2 +1,2 @@
 # apiNG-design-blanko
-Blanko Design für [apiNG](https://github.com/JohnnyTheTank/apiNG)
+Blanko Design for [apiNG](https://github.com/JohnnyTheTank/apiNG)
