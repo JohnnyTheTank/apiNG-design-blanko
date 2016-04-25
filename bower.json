@@ -24,7 +24,6 @@
       "tests"
     ],
     "dependencies": {
-      "jquery": "*",
       "apiNG": "*"
   }
 }
